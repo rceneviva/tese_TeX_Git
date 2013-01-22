@@ -1,0 +1,56 @@
+\begin{singlespacing}
+\begin{sidewaystable}[htbp]\centering
+\begin{footnotesize}
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Efeito da taxa de municipalização sobre a distorção idade-série\label{tab:xtregdistorcao}}
+\begin{tabular}{l*{9}{c}}
+\toprule
+          &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}\\
+          &\multicolumn{1}{c}{Todas}&\multicolumn{1}{c}{Todas}&\multicolumn{1}{c}{Municipais}&\multicolumn{1}{c}{Municipais}&\multicolumn{1}{c}{Estaduais}&\multicolumn{1}{c}{Estaduais}&\multicolumn{1}{c}{Privadas}&\multicolumn{1}{c}{Privadas}\\
+          &\multicolumn{1}{c}{Modelo 33}&\multicolumn{1}{c}{Modelo 34}&\multicolumn{1}{c}{Modelo 35}&\multicolumn{1}{c}{Modelo 36}&\multicolumn{1}{c}{Modelo 37}&\multicolumn{1}{c}{Modelo 38}&\multicolumn{1}{c}{Modelo 39}&\multicolumn{1}{c}{Modelo 40}\\
+\midrule
+Dist. idade-série &    0.0210\sym{*}         &    0,0195\sym{*}         &    0.0501\sym{***} & 0.0627\sym{***} &    0.0040\sym{*}         &    0,0072\sym{*}         &    0.0013 & 0.0007         \\
+          &  (0.0092)         &  (0.0012)  &  (0.0087) & (0.0105)&  (0.0069)         &  (0.0021)         &  (0.0019) & (0.0091)        \\
+%\addlinespace
+Bibliotecas &          &    -0,0011  &       &    -0.0039\sym{**} &  &-0.0016\sym{*} & & 0.0010       \\
+          &         &  (0.0065)         &   & (0.0017)  & & (0.0013) && (0.0088)   \\
+%\addlinespace
+Quadra de esportes &          &    -0,0011\sym{*}  &       &    -0.0022\sym{**} &  & -0.0035\sym{**} & & -0.0015            \\
+          &         &  (0.0018)         &  & (0.0013)  & & (0.0025) && (0.0025)    \\
+%\addlinespace
+Lab. de ciências &          &    0,0010  &       &    0.0018 &  &0.0009 & & 0.0002     \\
+          &                &  (0.0025)         &  & (0.0062)  & & (0.0086) && (0.0006)   \\
+%\addlinespace
+Lab. de informática  &          &    0,0013\sym{*}  &       &    0.0017\sym{**} &  &0.0011 & & -0.0000      \\
+              &             &  (0.0016)         &  & (0.0017)  & & (0.0055) && (0.0005)         \\
+%\addlinespace
+Aluno/computador &          &    -0,0000  &       &    -0.0000 &  & -0.0000 & & 0.0000     \\
+          &                &  (0.0000)         &  & (0.0000)  & & (0.0000) && (0.0000)         \\
+%\addlinespace
+Aluno/Professor    &          &    -0,0000  &       &    -0.0002 &  &-0.0001 & & 0.0000         \\
+          &               &  (0.0001)         & & (0.0002)  & & (0.0010) && (0.0000)   \\
+%\addlinespace
+ Curso Superior &          &    -0,0005  &       &    -0.0010 &  &-0.0008 & & -0.0000      \\
+          &                  &  (0.0015)         &  & (0.0022)  & & (0.0017) && (0.0002)    \\
+%\addlinespace
+%\addlinespace
+Constante    &    2.809\sym{***}&    2.9811\sym{***}& 3.995\sym{***}&3.725\sym{***}&    4.858\sym{***}&    4.599\sym{***}&14.359\sym{***}&14.203\sym{***}\\
+          &  (0.180)         &  (0.180)         &  (0.188)&  (0.188)         &  (0.175)         &  (0.195)   &  (0.623)         &  (0.602)   \\
+
+\midrule
+\emph{N}     &     25.875  &     25.875        &     12.068    &     12.068 &    8.095&    8.095 &  5.393  &  5.393    \\
+\(R^{2} within\) & 0.0004            &    0.019         &    0.0006  & 0.025            &    0.0002         &    0.013  & 0.0001            &    0.003        \\
+\(R^{2} Between\) &    0.0278         &    0.0335         &    0.0323  & 0.0425            &    0.0150         &    0.0189  & 0.0088            &    0.0195        \\
+\(R^{2} Overall\) &    0.190         &    0.210       &    0.018   & 0.210            &    0.175         &    0.190  & 0.065            &    0.095      \\
+\emph{Grupos}     &     2837         &     2837        &     2837 & 2837 &     2837         &     2837        &     2837 & 2837     \\
+\emph{Controles p/ municípios} &    sim        &    sim        &    sim & sim &    sim        &    sim        &    sim & sim    \\
+\emph{dummy   de ano} &    sim        &    sim        &    sim & sim  &    sim        &    sim        &    sim & sim           \\
+\bottomrule
+\multicolumn{9}{l}{\footnotesize Erros padrão robustos em parênteses}\\
+\multicolumn{9}{l}{\footnotesize Fonte: Calculos próprios a partir de dados do MEC/INEP}\\
+\multicolumn{9}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+\end{footnotesize}
+\end{sidewaystable}
+\end{singlespacing}
+

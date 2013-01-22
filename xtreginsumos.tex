@@ -1,0 +1,47 @@
+\begin{singlespacing}
+\begin{table}[htbp]\centering
+\begin{footnotesize}
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Efeito da taxa de municipalização sobre os insumos escolares\label{tab:xtreginsumos}}
+\begin{tabular}{l*{5}{c}}
+\toprule
+          &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(3)}\\
+          &\multicolumn{1}{c}{(Todas)}&\multicolumn{1}{c}{(Municipais)}&\multicolumn{1}{c}{(Estaduais)}&\multicolumn{1}{c}{(Privadas)}\\
+          &\multicolumn{1}{c}{Modelo 14}&\multicolumn{1}{c}{Modelo 15}&\multicolumn{1}{c}{Modelo 16}&\multicolumn{1}{c}{Modelo 17}\\
+\midrule
+Bibliotecas &    -0.0006         &    -0,0016         &    0.0005 & 0.0002         \\
+          &  (0.0003)         &  (0.0022)         &  (0.0010) & (0.0003)        \\
+%\addlinespace
+Quadra de esportes &      -0.0002            &    -0.0027         &   0.0002 & 0.0003         \\
+          &  (0.0042)                &  (0.0051)         &  (0.0230) & (0.0065)         \\
+%\addlinespace
+Laboratório de ciências &       -0.0021           &   -0.0052         & -0.0034 & 0.0001         \\
+          &        (0.0703)          &  (0.0028)         &  (0.0082)      & (0.0024)   \\
+%\addlinespace
+Laboratório de informática &     0.0019\sym{*} &    0.0051\sym{**}&  0.0016\sym{*}  & 0.0021  \\
+              &  (0.0036)         &  (0.0030) &   (0.0013)   &   (0.0022)       \\
+%\addlinespace
+Aluno/computador &          0.0001        &    -0.0001 &    0.0002  & 0.0001 \\
+          &     (0.0002)             &  (0.0002)         &  (0.0003)  & (0.0015)        \\
+%\addlinespace
+Aluno/Professor &       -0.0003  &  -0.0011 &    -0.0002 & -0.0000        \\
+          &         (0.0001)         &  (0.0034)         &  (0.0017) & (0.0012)        \\
+%\addlinespace
+Curso superior &  0.0003\sym{*}    &  0.0023\sym{**}    &    0.0015\sym{*}   & 0.0010 \\
+          &          (0.0003)        &       (0.0015)           &  (0.0009)    & (0.0097)     \\
+%\addlinespace
+\midrule
+\emph{N}     &     26.086         &     12.698         &    8.051 &  5337         \\
+\emph{Grupos}     &     2.837         &     2.837        &     2.837 & 2.837         \\
+\emph{Controles p/ municípios} &    sim        &    sim        &    sim & sim            \\
+\emph{dummy   de ano} &    sim        &    sim        &    sim & sim            \\
+\emph{Constante} &    sim        &    sim        &    sim & sim         \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Erros padrão robustos em parênteses}\\
+\multicolumn{5}{l}{\footnotesize Fonte: Calculos próprios a partir de dados do MEC/INEP}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+\end{footnotesize}
+\end{table}
+\end{singlespacing}
+

@@ -1,0 +1,29 @@
+\select@language {brazil}
+\contentsline {section}{\numberline {1}Introdu\c c\~ao}{15}{section.1}
+\contentsline {subsection}{\numberline {1.1}Revis\~ao da Literatura}{21}{subsection.1.1}
+\contentsline {section}{\numberline {2}Definindo e Medindo Resultados Educacionais}{39}{section.2}
+\contentsline {subsection}{\numberline {2.1}Mensura\c c\~ao}{40}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Mensura\c c\~ao no SAEB}{42}{subsubsection.2.1.1}
+\contentsline {subsection}{\numberline {2.2}Avalia\c c\~ao}{44}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Resultados Educacionais}{46}{subsection.2.3}
+\contentsline {section}{\numberline {3}Definindo e Medindo Descentraliza\c c\~ao}{53}{section.3}
+\contentsline {subsection}{\numberline {3.1}Os estudos no Brasil}{58}{subsection.3.1}
+\contentsline {section}{\numberline {4}A Descentraliza\c c\~ao da educa\c c\~ao no Brasil}{63}{section.4}
+\contentsline {subsection}{\numberline {4.1}As matr\IeC {\'\i }culas}{63}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}As escolas}{67}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}As turmas}{68}{subsection.4.3}
+\contentsline {section}{\numberline {5}Dados e M\'etodos}{71}{section.5}
+\contentsline {subsection}{\numberline {5.1}O SAEB}{71}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}O Censo Escolar}{76}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Vari\'aveis e estat\IeC {\'\i }sticas descritivas}{78}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Metodologia}{84}{subsection.5.4}
+\contentsline {subsubsection}{\numberline {5.4.1}O desempenho escolar dos alunos: o n\IeC {\'\i }vel de governo importa?}{87}{subsubsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.2}O efeito da municipaliza\c c\~ao nas escolas}{91}{subsubsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.3}O efeito da municipaliza\c c\~ao sobre as redes escolares nos munic\IeC {\'\i }pios}{97}{subsubsection.5.4.3}
+\contentsline {section}{\numberline {6}Resultados}{106}{section.6}
+\contentsline {subsection}{\numberline {6.1}O Efeito da rede escolar sobre a profici\^encia dos alunos: o n\IeC {\'\i }vel de governo importa?}{106}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}O Efeito da municipaliza\c c\~ao nas escolas}{129}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}O Efeito da municipaliza\c c\~ao sobre as redes escolares}{147}{subsection.6.3}
+\contentsline {section}{\numberline {7}Conclus\~ao}{163}{section.7}
+\contentsline {section}{\numberline {A}Anexo I: resultados complementares para o exame de l\IeC {\'\i }ngua portuguesa}{179}{appendix.A}
+\contentsline {section}{\numberline {B}Anexo II: resultados para o exame de matem\'atica}{181}{appendix.B}

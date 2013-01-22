@@ -1,0 +1,34 @@
+\begin{table}[htbp]\centering
+\begin{footnotesize}
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Resultados do estimador de diferença-em-diferenças \newline com efeito fixo da escola para português, 4a. série \label{tab:diff4}}
+\begin{tabular}{l*{4}{c}}
+\toprule
+              \bf{} &  \bf{Grupo MM}& &\bf{Grupo EM}  \\
+              \bf{} & \bf{(Controle II)} & &\bf{(Tratamento)}  \\
+               
+\midrule
+Pré Municipalização   & 161.39(a)  & & 165.41(b)    \\
+                                        & (0.36)    & & (1.90)   \\
+Pós Municipalização  &   167.80(c) & & 171.22(d)  \\
+                                        & (0.35)    & & (1.84)   \\
+Diferença                      &    4.01\sym{**}(b-a)     & &  3.41\sym{*}(d-c)  \\
+                                       & (0.03)    & & (1.87)   \\
+Dif. em Dif.                     & &           \bf{-0.60} &  \\
+                                       &    &         \bf{(2.70)} &   \\
+
+\midrule
+Controles p/ escolas & & sim &    \\
+Controles p/ ano   & & sim &   \\
+\(N\)     &                   &   5.767       &     \\   
+\(R^2\)     &               &   0.026     &     \\   
+\bottomrule
+\multicolumn{4}{l}{\footnotesize Erros padrão ajustados em parênteses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\multicolumn{4}{l}{\footnotesize Médias e erros padrão calculados via MQO}\\
+\multicolumn{4}{l}{\footnotesize Fonte: Cálculos próprios a partir de dados do SAEB e Prova Brasil}\\
+\multicolumn{4}{l}{\footnotesize Notas: MM: escolas municipais que permaneceram municipais}\\
+\multicolumn{4}{l}{\footnotesize  EM: escolas estaduais que migraram para as redes municipais}\\
+\end{tabular}
+\end{footnotesize}
+\end{table}
